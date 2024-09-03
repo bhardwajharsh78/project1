@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ben watches - Exquisite Spirits</title>
+  <link rel="stylesheet" href="watch (2).css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <!-- Header comment out all the parts of tis is quality work that i his i would like to admire -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Ben watches</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Collections</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <div class="hero">
+      <div class="hero-content">
+        <h1>Discover the Essence of Luxury</h1>
+        <p>Experience the world's finest spirits crafted with passion and perfection.</p>
+        <a href="#products" class="btn">Explore Collection</a>
+        
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="about-content">
+      <h2>Our Heritage</h2>
+      <p>
+        At Ben watches, we curate an exclusive selection of premium spirits from around the globe.
+        Our commitment to quality and excellence ensures that every sip is a journey of unparalleled taste and sophistication.
+      </p>
+      <a href="#products" class="btn">View Our Selection</a>
+    </div>
+    <div class="about-image">
+      <img src="productimage.jpg.png" alt="Luxurious Liquor" />
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="products-section">
+    <h2>Featured Collections</h2>
+    <div class="products-container">
+      <!-- Product 1 -->
+      <div class="product-card">
+        <div class="product-image">
+          <img src="productimage1.jpg.png" alt="Product 1" />
+        </div>
+        <div class="product-info">
+          <h3>Patek Phillip Mark IV </h3>
+          <p>A Premium mechanical to perfection, offering a luxury and elegance taste.</p>
+          <span class="price">$250,00</span>
+          <a href="#" class="btn">Add to Cart</a>
+        </div>
+      </div>
+      <!-- Product 2 -->
+      <div class="product-card">
+        <div class="product-image">
+          <img src="productimage2.jpg.png" alt="Product 2" />
+        </div>
+        <div class="product-info">
+          <h3>Rolex senater sunburst dial</h3>
+          <p>An professional blend luxury to perfection, delivering a rich and complex flavor profile.</p>
+          <span class="price">$450,000</span>
+          <a href="#" class="btn">Add to Cart</a>
+        </div>
+      </div>
+      <!-- Product 3 -->
+      <div class="product-card">
+        <div class="product-image">
+          <img src="productimage3.jpg.png" alt="Product 3" />
+        </div>
+        <div class="product-info">
+          <h3>Cavier turbillon</h3>
+          <p>A embereld luxury masterpiece, offerred by Jacob&co.</p>
+          <span class="price">$30,000,000</span>
+          <a href="#" class="btn">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials-section">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonials-container">
+      <!-- Testimonial 1 -->
+      <div class="testimonial-card">
+        <p>
+          " not because you wish to cross the line into wanton flamboyance, 
+          but because you are quietly confident and secure in yourself."
+        </p>
+        <h4>Johnathan Doe</h4>
+        <span>Luxury Connoisseur</span>
+      </div>
+      <!-- Testimonial 2 -->
+      <div class="testimonial-card">
+        <p>
+          "When I picked up my Bright Blue OP36, I was quite surprised 
+          how subtle the blue color was. I had expected it to be more 
+          colorful all the time, but I was very happy about it. "
+        </p>
+        <h4>Jane Smith</h4>
+        <span>Spirits Enthusiast</span>
+      </div>
+      <!-- Testimonial 3 -->
+      <div class="testimonial-card">
+        <p>
+          "Amazing experience from browsing to delivery.
+          The Emerald buety Elixir is a true delight."
+        </p>
+        <h4>Michael Lee</h4>
+        <span>Cocktail Aficionado</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section id="contact" class="newsletter-section">
+    <div class="newsletter-content">
+      <h2>Join Our Exclusive Club</h2>
+      <p>Subscribe to receive updates on new arrivals and exclusive offers.</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Enter your email" required />
+        <button type="submit" class="btn">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <!-- <footer>
+    <div class="footer-content">
+      <div class="footer-logo">Ben watches</div>
+      <p>&copy; 2024 Ben watches. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#"><img src="images/facebook.svg" alt="Facebook" /></a>
+        <a href="#"><img src="images/instagram.svg" alt="Instagram" /></a>
+        <a href="#"><img src="images/twitter.svg" alt="Twitter" /></a>
+      </div>
+    </div>
+  </footer> -->
+
+  <!-- JavaScript for Mobile Menu -->
+  <script>
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+      hamburger.classList.toggle('toggle');
+    });
+  </script>
+</body>
+</html>
